@@ -1,16 +1,16 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
+    "title1": "Senti",
+    "title2": "让我们的思念及时到达",
     "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "description": "及时通讯软件，可以让你实时关注亲友动态"
   },
   "SocialProof": {
     "maker": "制作者快速开发"
   },
   "Showcase": {
-    "title": "Showcase",
-    "description": "与1000+创作者一起，使用我们的落地页模板提升转化率"
+    "title": "Senti",
+    "description": "与1000+ 用户一起，让我们"
   },
   "Feature": {
     "title": "Feature"

@@ -1,7 +1,6 @@
 "use client";
 import HeaderLinks from "@/components/header/HeaderLinks";
 import { LangSwitcher } from "@/components/header/LangSwitcher";
-import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,10 +10,10 @@ import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
 const links = [
-  { label: "Features", href: "#Features" },
+  { label: "功能介绍", href: "#Features" },
   { label: "Pricing", href: "#Pricing" },
-  { label: "Testimonials", href: "#Testimonials" },
-  { label: "FAQ", href: "#FAQ" },
+  { label: "使用体验", href: "#Testimonials" },
+  { label: "问&答", href: "#FAQ" },
 ];
 
 const Header = () => {
@@ -29,8 +28,8 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12 flex-1">
           <Link
             href="/"
-            aria-label="Landing Page Boilerplate"
-            title="Landing Page Boilerplate"
+            aria-label="Senti 亲密无间"
+            title="Senti 亲密无间"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -41,7 +40,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              {siteConfig.name}
+              Senti 亲密无间
             </span>
           </Link>
         </div>
@@ -86,19 +85,19 @@ const Header = () => {
                   <div>
                     <Link
                       href="/"
-                      aria-label="Landing Page Boilerplate"
-                      title="Landing Page Boilerplate"
+                      aria-label="Senti 亲密无间"
+                      title="Senti 亲密无间"
                       className="inline-flex items-center"
                     >
                       <Image
-                        alt={siteConfig.name}
+                        alt="Senti 亲密无间"
                         src="/logo.svg"
                         className="w-8 h-8"
                         width={32}
                         height={32}
                       />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-950 dark:text-gray-300">
-                        {siteConfig.name}
+                        Senti 亲密无间
                       </span>
                     </Link>
                   </div>

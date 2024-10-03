@@ -45,33 +45,33 @@ export const FEATURES_EN = [
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
+    title: "实时位置共享",
+    content: "随时查看伴侣的精确位置,增进亲密感和安全感。",
     icon: BsGithub,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
+    title: "运动状态追踪",
+    content: "实时了解对方是否在走路、跑步或静止,便于及时沟通。",
     icon: FaMobileScreenButton,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
+    title: "设备状态监测",
+    content: "查看伴侣手机的充电状态和电量,贴心提醒充电。",
     icon: FaToolbox,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
+    title: "运动轨迹记录",
+    content: "追踪并展示伴侣的日常活动路线,分享生活点滴。",
     icon: MagnetIcon,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
+    title: "高级数据加密",
+    content: "采用端到端加密技术,确保所有通信和位置数据的安全性。",
     icon: MdCloudUpload,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
+    title: "隐私控制",
+    content: "灵活设置位置共享时间段,轻松管理隐私。",
     icon: FaEarthAsia,
   },
 ];

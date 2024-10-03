@@ -1,14 +1,9 @@
-import WebsiteCard from "@/components/WebsiteCard";
 import { showcases } from "@/config/showcases";
-import { createModernMetaScraper, ModernMetaScraper } from "@/lib/metaScraper";
 import { Spacer } from "@nextui-org/react";
+import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 
-const scraper: ModernMetaScraper = createModernMetaScraper();
-
-const Showcase = async ({ id, locale }: { id: string; locale: any }) => {
-  const sites = await scraper.scrapeMultiple(showcases);
-
+const Showcase = ({ id, locale }: { id: string; locale: any }) => {
   return (
     <section
       id={id}
@@ -23,9 +18,18 @@ const Showcase = async ({ id, locale }: { id: string; locale: any }) => {
         <p className="text-large text-default-500">{locale.description}</p>
       </div>
       <Spacer y={8} />
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
-        {sites.map((site) => (
-          <WebsiteCard key={site.url} {...site} />
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 justify-items-center">
+        {showcases.map((showcase, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <Image
+              src={showcase.imageSrc}
+              alt={showcase.alt}
+              width={300}
+              height={200}
+              className="rounded-lg object-cover"
+            />
+            <p className="mt-2 text-center text-white">{showcase.title}</p>
+          </div>
         ))}
       </div>
     </section>

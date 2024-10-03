@@ -11,7 +11,6 @@ import {
   Spacer,
 } from "@nextui-org/react";
 
-import { siteConfig } from "@/config/site";
 import { ALL_TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
@@ -90,7 +89,7 @@ const Pricing = ({
       </div>
       <Spacer y={12} />
       <div className="flex py-2">
-        <p className="text-default-400 text-center">
+        {/* <p className="text-default-400 text-center">
           {locale.doYouLike}&nbsp;
           <Link
             color="foreground"
@@ -100,7 +99,7 @@ const Pricing = ({
           >
             {locale.follow}
           </Link>
-        </p>
+        </p> */}
       </div>
     </section>
   );

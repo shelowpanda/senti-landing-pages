@@ -19,17 +19,17 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
           </RoughNotation>
         </h2>
         <p className="text-large text-default-500">
-          {/* Don't take our word for it. Here's what they have to say. */}
-          {locale.description1}{" "}
+          {/* Don't take our word for it. Here's what they have to say.
+          {locale.description1}{" "} */}
           <Link
             href={siteConfig.authors[0].twitter as string}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-primary underline"
           >
-            {locale.description2}
+            {/* {locale.description2} */}
           </Link>
-          {locale.description3}
+          {/* {locale.description3} */}
         </p>
       </div>
       <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all">

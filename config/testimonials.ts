@@ -1,75 +1,74 @@
-
 export const TestimonialsData = [
   {
     user: {
-      name: "Founder",
-      username: "weijunext",
+      name: "小红",
+      username: "xiaohong",
       image: "/images/users/weijunext.jpeg",
     },
     content:
-      "As a front-end developer, I'm highly satisfied with this landing page template. Editing text and images was very intuitive, and I encountered no technical hurdles throughout the process. The template's responsive design is excellent as well; whether on mobile or desktop, the page layout adapts perfectly. I managed to launch my own product's landing page in just half a day, significantly boosting my efficiency.",
+      "这款应用真的改变了我和男朋友的异地恋生活!实时位置共享让我们感觉彼此更近了,每天能看到他的行动轨迹,仿佛和他一起度过了一天。而且高级加密技术让我觉得隐私很安全,不用担心数据泄露。",
   },
   {
     user: {
-      name: "User1",
-      username: "weijunext",
+      name: "小明",
+      username: "xiaoming",
       image: "/images/users/1.png",
     },
     content:
-      "This template has given me a new perspective on coding. As a backend developer with not much front-end experience, I found this template to be very user-friendly. I could build a professional-looking landing page with hardly any coding required. This not only saved me time but also sparked more interest in front-end development.",
+      "作为一个经常出差的人,这个app让我的女朋友不再那么担心我。她可以随时查看我的位置和手机电量,甚至提醒我充电。运动状态追踪功能也很贴心,让她知道我是在工作还是在休息。",
   },
   {
     user: {
-      name: "User2",
-      username: "weijunext",
+      name: "小芳",
+      username: "xiaofang",
       image: "/images/users/2.png",
     },
     content:
-      "As a developer who transitioned from design, I'm impressed with the aesthetic design of this template. It's not only easy to use but also comes with a default design that feels both modern and professional. I made some adjustments to the details to match my brand style, and the entire process was both simple and enjoyable.",
+      "这个应用的隐私控制功能很棒!我可以灵活设置位置共享的时间段,在我想要独处时轻松关闭共享。这种平衡让我在亲密和独立之间找到了完美的平衡点。",
   },
   {
     user: {
-      name: "User3",
-      username: "weijunext",
+      name: "小李",
+      username: "xiaoli",
       image: "/images/users/3.png",
     },
     content:
-      "The performance of this template is outstanding, with very fast loading times and SEO-friendly features. As a developer focused on product optimization, I appreciate the high performance and optimization of the template. With simple modifications, I was able to further optimize my landing page, improving the speed at which users can access it. The SEO friendliness of the template also helped my page achieve better rankings in search engines.",
+      "作为一个喜欢户外运动的人,我特别喜欢这个app的运动轨迹记录功能。我可以和女朋友分享我的徒步路线,她也会为我的运动成就感到骄傲。这增加了我们之间的互动和话题。",
   },
   {
     user: {
-      name: "User4",
-      username: "weijunext",
+      name: "小张",
+      username: "xiaozhang",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "这个应用的界面设计非常直观,即使不是很懂技术的我也能轻松使用。地图界面清晰,功能布局合理,使用起来毫不费力。而且它在各种手机上都运行得很流畅,这点让我很满意。",
   },
   {
     user: {
-      name: "User5",
-      username: "weijunext",
+      name: "小王",
+      username: "xiaowang",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "我很欣赏这个应用对电池优化的重视。尽管它需要持续获取位置信息,但并没有明显增加手机耗电量。这让我可以全天候使用,不用担心手机没电的问题。",
   },
   {
     user: {
-      name: "User6",
-      username: "weijunext",
+      name: "小陈",
+      username: "xiaochen",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "这款应用不仅仅是一个位置共享工具,它更像是一个情侣间的纽带。通过查看彼此的日常活动,我们增进了理解,减少了误会。它让我们的感情变得更加稳固和信任。",
   },
   {
     user: {
-      name: "User7",
-      username: "weijunext",
+      name: "小林",
+      username: "xiaolin",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "作为一个注重隐私的人,我最初对位置共享应用持怀疑态度。但这个app的安全性打消了我的顾虑。端到端加密确保了数据安全,而且我可以随时暂停共享。它让我在保护隐私的同时,也能与伴侣保持紧密联系。",
   },
 ];

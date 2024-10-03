@@ -10,7 +10,7 @@ import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
 const links = [
-  { label: "功能介绍", href: "#功能介绍" },
+  { label: "功能介绍", href: "#Features" },
   { label: "Pricing", href: "#Pricing" },
   { label: "使用体验", href: "#Testimonials" },
   { label: "问&答", href: "#FAQ" },

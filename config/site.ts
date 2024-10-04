@@ -6,13 +6,13 @@ import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 
 const baseSiteConfig = {
-  name: "Landing page boiler",
+  name: "Senti",
   description:
     "A free, open-source",
-  url: "https://www.baidu.com",
+  url: "https://senti.mythicofwukong.top/",
   ogImage: "https://www.baidu.com",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["Senti is a map-based instant messaging app designed specifically for couples. It's more than just a chat tool; it's an intelligent platform that enhances intimate relationships. With Senti, you can:", "View your partner's real-time location, making distance no longer a barrier Stay updated on your partner's activity status, as if you're always together Monitor your partner's phone battery and charging status, allowing for thoughtful reminders Review each other's movement history, sharing life's moments"],
   authors: [
     {
       name: "weijunext",
